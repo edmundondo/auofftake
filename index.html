@@ -11,7 +11,7 @@
   <header>
     <div class="eyebrow">WhatsApp Group → Project Tracker</div>
     <h1>Gold Deal Tracker</h1>
-    <div class="subtitle">5 groups, read as 5 live projects · last synced from chat exports 7/29/26</div>
+    <div class="subtitle">8 groups, read as 8 live projects · last synced from chat exports 8/19/26</div>
     <div class="print-meta" id="print-meta"></div>
   </header>
   </section>
@@ -500,7 +500,7 @@ const PROJECTS = [
   {
     name: "Nairobi 50kgs",
     aliases: ["Nairobi"],
-    purpose: "Kenya gold, 50–200kg — SGS/Triangle refinery, export permit red tape",
+    purpose: "Kenya gold, 50–200kg — export permit issue resolved 7/30, still awaiting Proof of Product",
     priority: "high",
     caution: true,
     whatsappLink: "https://chat.whatsapp.com/F2LC2WfEn7sFs4NFH4gBo1?mode=gi_t",
@@ -509,9 +509,10 @@ const PROJECTS = [
       ["Confirm total product on-site & trial quantity", "PN / Sofi Madanhire", "done", "Confirmed 200kg total 7/23; 50kg trial proposed first"],
       ["Draft Gold Transaction Term Sheet / SOP", "Markus Schneider", "done", "4-page SOP shared 7/23"],
       ["Precious (PN) to send Proof of Product (PoP)", "PN", "notstarted", "Delayed repeatedly since 7/20 — storage wants payment to release product"],
-      ["Confirm Category 3 export permit + shipper compliance docs", "PN / Peter Hunda", "progress", "Requested 7/24; referenced 7/24 & 7/27, docs not yet shared"],
+      ["Confirm Category 3 export permit + shipper compliance docs", "PN / Peter Hunda", "done", "Resolved 7/30 — split-lot customs issue cleared; exporting entity to arrange export paperwork"],
       ["Issue draft SPA with full buyer company details", "Markus Schneider", "notstarted", "Requested by PN 7/27 so both sides can vet each other"],
       ["Confirm 'Level 3' export permit copy from exporting entity", "PN", "notstarted", "Requested 7/27, not yet provided"],
+      ["Provide overall transaction status update", "Markus Schneider", "progress", "Peter chasing update 7/31 (\"Hi Markus please update?\"), no response yet"],
     ]
   },
   {
@@ -534,6 +535,52 @@ const PROJECTS = [
       ["Send buyer's SWIFT / Usance LC sample verbiage to seller", "Markus Schneider", "progress", "Sent 7/13, no reply by 7/16"],
       ["Confirm details on newly offered 50kg Nairobi nugget lot", "Markus Schneider", "done", "Terms confirmed 7/18: 96/97 purity, $105/kg, USDT, SGS refinery"],
       ["Confirm refinery (Ready Mines / Polaris) for Uganda 100kg cash & carry", "Peter Hunda", "notstarted", "Asked 7/28–29, no seller reply yet"],
+    ]
+  },
+  {
+    name: "EMI KE",
+    aliases: ["🇧🇼EMI🇰🇪", "EMI"],
+    purpose: "Second Nairobi, Kenya gold lead via seller Mr. Mubarak — introduced 8/13, very early stage",
+    priority: "low",
+    caution: false,
+    whatsappLink: "https://chat.whatsapp.com/Ib9VHPNMBcSL8G2LoEv3Fv?mode=gi_t",
+    notes: [],
+    tasks: [
+      ["Confirm status of second Nairobi gold deal with seller Mr. Mubarak", "Markus Schneider", "progress", "Eddie asked 8/13 whether to connect group with seller; Imani relayed Markus is 'working on it' — no further detail yet"],
+    ]
+  },
+  {
+    name: "ZAMA",
+    aliases: ["🇿🇼ZAMA🇿🇼", "Zimbabwe mine", "SMG Zimbabwe"],
+    purpose: "Zimbabwe mine development & partnership (SwissMeridian/SMG model) — NDA executed, still pre-terms",
+    priority: "medium",
+    caution: false,
+    whatsappLink: "https://chat.whatsapp.com/GhdX9Fq99Hy0tma9lqVh9L?mode=gi_t",
+    notes: [],
+    tasks: [
+      ["Share mine development & partnership proposal + info sheet", "Eddie Ed", "done", "10-page proposal + info sheet sent 8/11"],
+      ["Draft, revise, and execute mutual NDA", "Markus Schneider / Peccy Zenda", "done", "Drafted 8/12, revised by Peccy 8/14, executed version circulated 8/14"],
+      ["Align mine development model to Zimbabwe legislation", "Markus Schneider", "progress", "Zimbabwe_Regulatory_Questions.pdf shared 8/14; coordination call planned to adapt model"],
+      ["Hold coordination call on next steps", "Markus Schneider / Peccy Zenda", "done", "Call held ~8/17–8/18 (\"Was great talking to you\")"],
+      ["Share updated mine info sheet", "Markus Schneider", "done", "Sent 8/18"],
+      ["Issue term sheet / pricing terms", "Markus Schneider", "notstarted", "No term sheet or pricing yet as of 8/18 — still pre-commercial"],
+    ]
+  },
+  {
+    name: "Gold Lusaka and Conakry",
+    aliases: ["Lusaka", "Conakry", "Zambia 200kg"],
+    purpose: "Zambia (Lusaka) 200kg CIF gold + Conakry/Guinea parcels via multiple refineries — stalled on pre-payment vs SBLC/DLC terms",
+    priority: "high",
+    caution: true,
+    whatsappLink: "https://chat.whatsapp.com/GrTrsHjVXUlCKEbDpDRp6V?mode=gi_t",
+    notes: [],
+    tasks: [
+      ["Introduce Lusaka 200kg CIF-Dubai opportunity to buyer", "Markus Schneider / Imani Seboni", "done", "Introduced 8/3; buyer's Dubai CIF contact said they'd buy 'tomorrow' at $100k/kg CIF"],
+      ["Share Conakry gold parcels + refinery documentation", "Eddie Ed", "done", "Multiple lots shared 8/3 (45kg @ $85k/kg, 50kg 98.9% purity @ $95k FOB/$100k CIF, another lot @ $120k/kg) referencing Thomas Guarg, Lindberg Gold, and Emperio Gold refineries + a draft gold-trade procedure doc"],
+      ["Connect group with Zambia-side direct contact", "Imani Seboni", "done", "Rita (sales manager, direct contact with Lusaka seller) added 8/3"],
+      ["Resolve pre-payment vs pure-CIF deal structure", "Markus Schneider / Rita", "progress", "Seller wants ~8–10% pre-payment; buyer resists over scam risk (8/4). Rita proposes on-the-ground cash & carry in Zambia instead"],
+      ["Confirm buyer financial instrument (DLC vs SBLC)", "Markus Schneider", "notstarted", "Markus working a DLC buyer in Dubai (8/8); Rita says seller only accepts SBLC, not DLC — unresolved as of 8/8"],
+      ["Hold call to close Lusaka/Conakry terms", "Markus Schneider / Rita / Eddie Ed", "done", "Call held 8/3 after Imani pushed to 'close this deal today'"],
     ]
   }
 ];
