@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- TRACKER VERSION: 1.0 — bump this comment and CONTENT/version-badge together on future updates -->
+<!-- TRACKER VERSION: 1.1 — bump this comment and CONTENT/version-badge together on future updates -->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>Mak Tracker — WhatsApp Group Projects</title>
-<meta name="tracker-version" content="1.0">
+<meta name="tracker-version" content="1.1">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 </head>
 <body>
@@ -12,7 +12,7 @@
   <section class="hero">
   <header>
     <div class="eyebrow">WhatsApp Group → Project Tracker</div>
-    <div class="title-row"><h1>Mak</h1><span class="version-badge">v1.0</span></div>
+    <div class="title-row"><h1>Mak</h1><span class="version-badge">v1.1</span></div>
     <div class="subtitle">3 groups, read as 3 live projects · last synced from chat exports 8/19/26</div>
     <div class="print-meta" id="print-meta"></div>
   </header>
@@ -40,7 +40,7 @@
   <div class="grid" id="grid"></div>
   </section>
 
-  <footer>Click a project row to expand · click any status pill to cycle done → in progress → not started · search and filter above <span class="version-tag">v1.0</span></footer>
+  <footer>Click a project row to expand · click any status pill to cycle done → in progress → not started · search and filter above <span class="version-tag">v1.1</span></footer>
 
   <div class="status-badge">
   <div class="status-badge-icon"><img src="data:image/png;base64,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" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;"></div>
@@ -634,6 +634,24 @@ const PROJECTS = [
       ["Share detailed mine info sheet", "Liberty Mabeza", "done", "Swiss Meridian Info Sheet_2.pdf shared 8/6, pending Eddie's witness signature"],
       ["Schedule intro call / move to commercial terms", "Group", "notstarted", "Call plans raised 7/30 and 8/4 but not confirmed held; no term sheet issued as of 8/13"],
     ]
+  },
+  {
+    name: "Markus Schneider (SMG)",
+    aliases: ["SMG", "Swiss Meridian Group", "Markus", "SMG direct coordination"],
+    purpose: "Direct 1:1 coordination with Markus Schneider (Swiss Meridian Group / SMG) — the buyer-side partner running the mine-development offtake model, juggling Zambia/Dubai/Kenya/Philippines/Guinea leads in parallel, and gating the Zimbabwe export-framework work that underpins every other group in this tracker",
+    priority: "high",
+    caution: true,
+    whatsappLink: "",
+    notes: [],
+    tasks: [
+      ["Confirm Zambia Cash & Carry vs CIF procedures (Adrian/OTG, Peter/Dubai)", "Markus Schneider", "done", "Zambia Procedure + Cash & Carry doc confirmed early June; Adrian (OTG) and Peter (Dubai CIF) tracked as separate deals per 6/29"],
+      ["Match 200kg Lusaka parcel to a CIF-to-Dubai buyer", "Markus Schneider", "progress", "Buyer lined up 8/3, contingent on seller confirming CIF; still the guy he's 'focused on' as of 8/24, no resolution logged"],
+      ["Sign SMG-Nehoreka NDA / SMG Konnect NDA-NCND", "Markus Schneider", "done", "Correct NDA confirmed and executed 8/3; revised SMG_Konnect NDA/NCND recirculated 8/4 for re-signature"],
+      ["Assess Philippines 100kg lead via Tania ($105/kg + $5k comms)", "Markus Schneider", "progress", "Passed to buyer agent 7/15; buyer's contact flagged an unclear link to a 'Philipp Leach Lowell' — not resolved in thread"],
+      ["Answer Zimbabwe export-license / legal-pathway questions (~20% below LBMA target via Fidelity mandate)", "Eddie Ed's nephew", "progress", "Question sent 8/5; nephew confirmed he can handle purification/export 8/7; base price + 1-3% fee still to be finalized on a call, not yet held as of 8/24"],
+      ["Send state-of-affairs update to all mining groups", "Markus Schneider", "notstarted", "Requested 8/20, chased again 8/21 and 8/24 — still outstanding per Eddie's last message"],
+      ["Verify unverified 'covers 18% of Africa's gold output' claim from Rita's-team contact before advancing", "Group", "notstarted", "Flagged by Markus 8/10 as implausible (Africa mines ~1,000t/yr total); separately an AI-generated summary about this contact was called out as incorrect the same day"],
+    ]
   }
 ];
 
@@ -927,7 +945,7 @@ function exportPDF() {
   const stamp = document.getElementById("print-meta");
   if (stamp) {
     const now = new Date();
-    stamp.textContent = "Report generated " + now.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" }) + " · v1.0";
+    stamp.textContent = "Report generated " + now.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" }) + " · v1.1";
   }
   setTimeout(() => window.print(), 60);
 }
@@ -1025,7 +1043,7 @@ th { background: #f0f0f0; }
 <h1>Mak Tracker</h1>
 <p class="purpose">WhatsApp Group &#8594; Project Tracker &#8212; snapshot report</p>
 <p>${PROJECTS.length} groups tracked as ${PROJECTS.length} live projects. Generated ${escXml(now)}.</p>
-<p>Tracker version: 1.0</p>
+<p>Tracker version: 1.1</p>
 </body>
 </html>`);
 
